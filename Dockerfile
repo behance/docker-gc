@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-ENV DOCKER_VERSION 1.12.6
+ENV DOCKER_VERSION 1.11.2
 
 # We get curl so that we can avoid a separate ADD to fetch the Docker binary, and then we'll remove it
 RUN apk --update add bash curl \
